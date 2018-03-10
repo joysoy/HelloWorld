@@ -1,0 +1,26 @@
+{
+  "name": "joysoy/hello-world",
+  "description": "HelloWorld",
+  "keywords": [
+    "test"
+  ],
+  "homepage": "https://github.com/joysoy/HelloWorld",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hou Zong Jian",
+      "email": "joysoy@163.com",
+      "homepage": "http://www.life4fun.net/"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "monolog/monolog": "^1.17"
+  },
+  "config": {
+    "process-timeout": 0
+  },
+  "scripts": {
+    "start": "php -S localhost:8080 -t public index.php"
+  }
+}
